@@ -1,0 +1,103 @@
+REFERENCE VALUES FOR COMMON LABORATORY TESTS1
+Serum Chemistries Reference Range
+Alanine aminotransferase (ALT) 10–40 U/L
+Albumin 3.5–5 g/dL (adults)
+3.4–4.2 g/dL (young children)
+Alkaline phosphatase (ALP) Varies with age:
+30–120 IU/L (adults)
+150–420 IU/L (children)
+Ammonia 15–45 mcg/dL
+Amylase 27–131 U/L
+Aspartate aminotransferase
+(AST)
+10–30 U/L
+Bilirubin, direct 0.1–0.3 mg/dL
+Bilirubin, total 0.3–1.2 mg/dL
+Blood urea nitrogen (BUN) 8–23 mg/dL (adults)
+Lower in children
+Calcium, ionized 4.6–5.1 mg/dL
+Calcium, total serum 8.2–10.2 mg/dL
+Carbon dioxide (venous) (CO2) 22–28 mEq/L
+Chloride (Cl) 96–106 mEq/L
+C-reactive protein (CRP) 0.08–3.1 mg/L
+Creatinine kinase (CK) 40–150 U/L
+Creatinine, serum (SCr) 0.6–1.2 mg/dL (adults)
+0.2–0.7 mg/dL (children)
+Creatinine (clearance) (CrCl) 75–125 mL/minute/1.73 m2
+Ferritin 15–200 ng/mL
+γ-Glutamyl transpeptidase 2–30 U/L
+Glucose, serum 70–110 mg/dL
+Hemoglobin A1C percent of
+total hemoglobin
+4%–7%
+Lactate dehydrogenase (LDH) 100–200 U/L
+Lipase 31–186 U/L
+Magnesium 1.3–2.1 mEq/L
+Osmolality, serum 275–295 mOsm/kg
+Phosphorus 2.3–4.7 mg/dL (adults)
+3.7–5.6 mg/dL (children)
+Potassium 3.5–5.0 mEq/L
+Prealbumin 19.5–35.8 mg/dL
+Sodium 136–142 mEq/L
+Uric acid, serum 4–8 mg/dL
+Hematology/Coagulation Reference Range
+Hematocrit (Hct) 42%–50% (men)
+36%–45% (women)
+Hemoglobin (Hgb) 14–18 g/dL (men)
+12–16 g/dL (women)
+International normalized ratio
+(INR)
+0.9–1.1
+Mean corpuscular hemoglobin
+(MCH)
+26–34 pg/cell
+Mean corpuscular hemoglobin
+concentration (MCHC)
+33–37 g/dL
+Mean corpuscular volume
+(MCV)
+80–100 fL/cell
+Partial thromboplastin time
+(PTT)
+25–40 seconds
+Platelet count (Plt) 150,000–350,000 cells/mm3
+Prothrombin time (PT) 10–13 seconds
+Red blood cell count (RBC) 4.5–5.9 × 106 cells/mm3 (men)
+4.1–5.1 × 106 cells/mm3 (women)
+Reticulocyte percent of red
+blood cells
+0.5%–1.5%
+White blood cell count (WBC) 4.5–11.0 × 103 cells/mm3
+Serum Lipids Reference Range
+Cholesterol, total (TC),
+desirable
+< 200 mg/dL
+High-density lipoprotein (HDL)
+cholesterol, desirable
+≥ 60 mg/dL
+Low-density lipoprotein (LDL)
+cholesterol
+< 100 mg/dL
+Triglycerides (TG) < 150 mg/dL
+Blood Gases Arterial Venous
+pH 7.35–7.45 7.31–7.41
+Partial pressure of carbon
+dioxide (PCO2)
+35–45 mm Hg 40–52 mm Hg
+Partial pressure of oxygen (PO2) 80–100 mm Hg 30–50 mm Hg
+Oxygen saturation (SaO2) > 90% 60%–75%
+Serum bicarbonate (HCO3) 22–26 mEq/L 21–28 mEq/L
+Urinalysis
+Leukocyte esterase, nitrite,
+protein, blood, ketones,
+bilirubin, glucose
+Negative
+pH 4.5–8.0
+Specific gravity 1.010–1.025
+1
+Values given in this table are commonly accepted reference ranges compiled from several sources. Patient-specific goals may
+differ depending on age, sex, clinical condition, and the laboratory methodology used to perform the assay.
+Information from: AMA Manual of Style. Available at www.Amamanualofstyle.com/page/si-conversion-calculator. Last
+accessed 11/21/2018); Lee M, ed. Basic Skills in Interpreting Laboratory Data, 6th ed. Bethesda, MD: American Society
+of Health-System Pharmacists, 2017; and DiPiro JT, Talbert RL, Yee GC, et al., eds. Pharmacotherapy: A Pathophysiologic
+Approach, 10th ed. New York: McGraw-Hill, 2017.
