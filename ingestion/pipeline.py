@@ -32,10 +32,12 @@ The following lines were not extracted:
 Extract them using the same JSON schema.
 Return ONLY valid JSON.
 """
-        recovery_response = llm.generate(recovery_prompt)
-        recovered_data = json.loads(recovery_response)
-
-        structured["tests"].extend(recovered_data.get("tests", []))
+        try:
+            recovery_response = llm.generate(recovery_prompt)
+            recovered_data = json.loads(recovery_response)
+            structured["tests"].extend(recovered_data.get("tests", []))
+        except (json.JSONDecodeError, KeyError):
+            pass  # Recovery failed — continue with what we have
 
     # 6️⃣ Validate
     validated = validate_lab_data(structured)

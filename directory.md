@@ -37,3 +37,35 @@ whitecoat-ai/
 │
 ├── requirements.txt
 └── .env
+
+
+
+UPLOAD REPORT
+     ↓
+Extraction Layer (already built)
+     ↓
+Structured Labs
+     ↓
+Create Lab-Based Chunks
+     ↓
+Embed & Store in Vector Index
+
++ Curated Medical Knowledge Base
+     ↓
+Chunk & Embed
+     ↓
+Store in Same Vector Index
+
+----------------------------------
+
+User Question or Summary Task
+     ↓
+Embed Query
+     ↓
+Semantic Retrieval (Top-K)
+     ↓
+Merge Context
+     ↓
+Strict Grounded Prompt
+     ↓
+Gemini Generation
