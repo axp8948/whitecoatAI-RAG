@@ -7,15 +7,27 @@ class RAGEngine:
         self.loader = KnowledgeBaseLoader(kb_path)
         self.store = ChromaVectorStore()
 
-        # Check if collection already populated
         if self.store.collection.count() == 0:
             print("Indexing knowledge base...")
             chunks = self.loader.load()
-            self.store.add_documents(chunks)
+
+            documents = []
+            ids = []
+            metadatas = []
+
+            for i, chunk in enumerate(chunks):
+                documents.append(chunk["text"])
+                ids.append(f"{chunk['filename']}_{i}")
+                metadatas.append({
+                    "topic": chunk["topic"],
+                    "filename": chunk["filename"],
+                    "source": chunk["source"]
+                })
+
+            self.store.add_documents(documents, ids, metadatas)
             print("Indexing complete.")
         else:
             print("Knowledge base already indexed.")
 
     def retrieve(self, query, top_k=5):
-        results = self.store.search(query, top_k=top_k)
-        return results
+        return self.store.query(query, n_results=top_k)
