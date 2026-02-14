@@ -1,0 +1,88 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# ===============================
+# Environment Variables
+# ===============================
+.env
+.env.*
+*.env
+
+# ===============================
+# Streamlit
+# ===============================
+.streamlit/secrets.toml
+
+# ===============================
+# MongoDB / Local DB Dumps
+# ===============================
+*.bson
+*.json
+*.dump
+dump/
+mongodb_backup/
+
+# ===============================
+# Vector Embeddings / Knowledge Base
+# ===============================
+knowledge_base/processed/
+*.pkl
+*.npy
+*.faiss
+*.index
+*.bin
+
+# ===============================
+# Logs
+# ===============================
+logs/
+*.log
+
+# ===============================
+# OS Files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# IDEs
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===============================
+# Testing / Coverage
+# ===============================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ===============================
+# Temporary Files
+# ===============================
+tmp/
+temp/
+*.tmp
+*.bak
