@@ -51,6 +51,7 @@ knowledge_base/processed/
 *.faiss
 *.index
 *.bin
+knowledge_base
 
 # ===============================
 # Logs

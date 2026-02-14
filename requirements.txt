@@ -5,4 +5,5 @@ google-genai
 pymongo
 python-dotenv
 numpy
+chromadb
 
