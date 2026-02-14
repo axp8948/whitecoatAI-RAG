@@ -3,6 +3,7 @@ def validate_lab_data(data):
     cleaned = []
 
     for test in data.get("tests", []):
+
         try:
             value = float(test["value"]) if test["value"] is not None else None
         except:

@@ -1,4 +1,6 @@
 def normalize_lines(raw_text):
+    """
+    Splits raw text into clean lines.
+    """
     lines = raw_text.split("\n")
-    cleaned = [line.strip() for line in lines if line.strip()]
-    return cleaned
+    return [line.strip() for line in lines if line.strip()]

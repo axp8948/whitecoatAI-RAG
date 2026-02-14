@@ -28,7 +28,7 @@ Return STRICT JSON in this schema:
 
 Rules:
 - Extract ALL measurable lab values.
-- Include the original raw_line for each extracted test.
+- Include original raw_line.
 - If unsure, include it.
 - Convert "<148" or ">200" to numeric.
 - If qualitative (Positive/Negative), set value to null.
@@ -45,13 +45,14 @@ def _clean_json(text):
     return match.group() if match else text
 
 
-def extract_structured_labs(raw_text, model):
+def extract_structured_labs(raw_text, llm):
     prompt = EXTRACTION_PROMPT + f"\n\nMedical Report:\n{raw_text}"
 
-    response = model.generate_content(prompt)
-    cleaned = _clean_json(response.text)
+    response = llm.generate(prompt)
+
+    cleaned = _clean_json(response)
 
     try:
         return json.loads(cleaned)
-    except:
-        raise ValueError("Invalid JSON returned from LLM.")
+    except Exception as e:
+        raise ValueError("Invalid JSON returned from LLM.") from e

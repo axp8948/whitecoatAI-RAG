@@ -1,16 +1,11 @@
-def find_numeric_lines(lines):
-    numeric_lines = []
-    for line in lines:
-        if any(char.isdigit() for char in line):
-            numeric_lines.append(line)
-    return numeric_lines
-
-
 def detect_missed_lines(lines, extracted_tests):
+    """
+    Detects numeric lines not extracted.
+    """
+
     extracted_lines = [
-        test["raw_line"].strip()
+        test.get("raw_line", "").strip()
         for test in extracted_tests
-        if test.get("raw_line")
     ]
 
     missed = []
